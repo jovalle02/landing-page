@@ -26,7 +26,7 @@ body {
     color: white;
     justify-content: center;
     padding: 150px 200px;
-    gap: 32px;
+    gap: 60px;
 }
 
 .footer {
@@ -94,6 +94,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 20px;
 }
 
 .main-right {
@@ -109,7 +110,7 @@ h1 {
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: extra-bold;
 }
 
@@ -128,19 +129,26 @@ button {
     background: #2880ac;
     border: none;
     color: white;
-    width: 200px;
-    padding: 8px;
+    width: 140px;
+    padding: 8px 16px;
     margin: 0;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+button:hover {
+    background-color: #33596c;
+    animation: ease-in 1s;
+}
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 30px;
 }
 
 ul li {
@@ -153,7 +161,8 @@ a {
 }
 
 .main-content {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .authorquuote {
