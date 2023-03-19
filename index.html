@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="icon" href="/images/logo_circular.png">
     <title>Lo Hago Por Ti</title>
 </head>
 <body>
     <div class="header">
         <a href="#" class="logo-letras"><img src="/images/logo_circular.png" width="70px"></a>
         <ul class="links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#main">Inicio</a></li>
+            <li><a href="#contactinfo">Contacto</a></li>
         </ul>
     </div>
-    <div class="main">
+    <div class="main" id="main">
         <div class="main-left">
             <h1>Yo lo hago por ti</h1>
             <p class="main-content">¡Tenemos un nuevo emprendimiento que hará las cosas por ti! Deja atrás las preocupaciones diarias y disfruta de tu tiempo libre mientras nuestro equipo se encarga de todo, desde las compras hasta el pago de facturas. ¡Únete ahora para descubrir una nueva forma de vivir sin estrés!</p> 
-            <button>Contactanos</button>   
+            <a class="botoncontacta" href="#contactinfo">Contactanos<a>   
         </div>
         <div class="main-right">
             <div>Aqui va una imagen que tenga sentido</div>
@@ -29,19 +30,19 @@
         <h1 class="h1-randominfo">¿Qué hacemos?</h1>
         <div class="cartas">
             <div class="carta-src">
-                <div class="carta"><img alt="1"></div>
+                <div class="carta"><img src="/images/factura_icon.png" alt="1"></div>
                 <p>Pagamos tus recibos</p>
             </div>
             <div class="carta-src">
-                <div class="carta"><img alt="2"></div>
+                <div class="carta"><img src="/images/perro_icon.png" alt="2"></div>
                 <p>Cuidamos a tu mascota</p>
             </div>
             <div class="carta-src">
-                <div class="carta"><img alt="3"></div>
+                <div class="carta"><img src="/images/ropa_icon.png" alt="3"></div>
                 <p>Llevamos tu ropa a la lavanderia</p>
             </div>
             <div class="carta-src">
-                <div class="carta"><img alt="4"></div>
+                <div class="carta"><img src="/images/carro_icon.png" alt="4"></div>
                 <p>Llevamos tu carro al taller</p>
             </div>
     
@@ -51,7 +52,18 @@
         <div class="quotetext">"El tiempo es un bien escaso, y si bien es cierto que todos tenemos las mismas 24 horas al día, lo que realmente importa es cómo las utilizamos"</div>
         <div class="authorquuote">- Harvey Mackay</div>
     </div>
-    <div class="contactinfo">
+    <div class="contactinfo" id="contactinfo">
+        <div class="contacto">
+            <div class="headerinfo">Hola! 👋 Contactanos a los siguientes numeros!</div>
+            <div class="numeros">
+                <div class="numero1">
+                    <div class="numerotelf1">320-782-5724</div>
+                </div>
+                <div class="numero2">
+                    <div class="numerotelf2">311-787-1747</div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer">
         Copyright @ Lo Hago Por Ti 2023 

@@ -18,6 +18,8 @@ body {
     padding-bottom: 20px;
     background-color: #0b354a;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .main {
@@ -73,14 +75,9 @@ body {
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
-
-p {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    text-align: center;
 }
 
 .h1-randominfo {
@@ -125,7 +122,45 @@ h1 {
     font-size: 20px;
 }
 
-button {
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contacto {
+    display: flex;
+    padding: 20px 300px;
+    flex-direction: column;
+    background-color: #2880ac;
+    border-radius: 16px;
+    color: white;
+}
+
+
+.headerinfo {
+    padding: 50px;
+    font-size: 32px;
+}
+
+.numeros {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.numerotelf1, .numerotelf2{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 16px;
+}
+
+.botoncontacta {
     background: #2880ac;
     border: none;
     color: white;
@@ -140,7 +175,7 @@ button {
     justify-content: center;
 }
 
-button:hover {
+.botoncontacta:hover {
     background-color: #33596c;
     animation: ease-in 1s;
 }
