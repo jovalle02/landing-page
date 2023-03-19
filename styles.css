@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0b354a;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    background-color: #0b354a;
+    color: white;
+    justify-content: center;
+    padding: 150px 200px;
+    gap: 32px;
+}
+
+.footer {
+    background-color: #0b354a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.quote {
+    background-color: rgb(215, 214, 214);
+    display: flex;
+    color: #1F2937;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 150px 500px;
+}
+
+.randominfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    gap: 60px;
+    flex-wrap: nowrap;
+}
+
+.cartas {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta-src {
+    border: 3px solid #0b354a;
+    border-radius: 16px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.h1-randominfo {
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.main-left {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-right {
+    height: auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.logo-letras {
+    font-weight: 800;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    font-size: 20px;
+}
+
+button {
+    background: #2880ac;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 8px;
+    margin: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+ul li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content {
+    font-size: 18px;
+}
+
+.authorquuote {
+    font-weight: 400;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotetext {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+}
